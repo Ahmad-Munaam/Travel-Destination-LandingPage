@@ -1,0 +1,63 @@
+.about-upper-card {
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 90%;
+  position: absolute;
+  /* background-color: #ffffff; */
+  background-color: inherit;
+
+}
+
+.about-lower-card {
+  right: 0;
+  z-index: 0;
+  width: 90%;
+  position: absolute;
+  opacity: 60%;
+}
+
+@media (max-width: 640px) {
+  .about-special-cards>div.relative {
+    height: auto !important;
+    min-height: 243px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about-special-cards>div.relative {
+    height: auto !important;
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 336px) {
+  .about-special-cards>div.relative {
+    height: auto !important;
+    min-height: 305px;
+  }
+}
+
+.vector1 {
+  background-image: url('/src/assets/images/ThingSectionImages/Vector1\ 4856.png');
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  height: 278px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.vector2 {
+  background-image: url('/src/assets/images/ThingSectionImages/Vector2\ 4856.png');
+  z-index: 1;
+  background-color: #FFFFFF;
+  height: 278px;
+  object-fit: cover;
+}
+.vector3 {
+  background-image: url('/src/assets/images/ThingSectionImages/Vector3 4857.png');
+  background-color: #FFFFFF;
+  object-fit: cover;
+  z-index: 1;
+  height: 278px;
+}

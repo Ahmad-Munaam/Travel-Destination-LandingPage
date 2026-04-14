@@ -1,0 +1,239 @@
+@keyframes flow-animation {
+    from {
+        transform: translateY(200px)
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.footer-animate {
+    animation: flow-animation 1s ease-in 0s 1 forwards;
+}
+
+@keyframes card-animate {
+    from {
+        margin-left: -100%;
+        opacity: 0;
+    }
+
+    to {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+.things-animate {
+    animation: card-animate 1s ease-in forwards;
+}
+
+
+@keyframes about-card {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.about-animation {
+    animation: about-card 2s ease-in 0s 1 forwards;
+}
+
+@keyframes right-animation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.sub-left-animation {
+    animation: right-animation 3s ease-in 0s 1 forwards;
+}
+
+@keyframes card-sliding {
+    0% {
+        opacity: 0;
+        transform: translateX(200%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.dealcard-sliding {
+    animation: card-sliding 1.5s ease-in-out 0s 1 backwards;
+}
+
+@keyframes footer-animation {
+    from {
+        transform: translateY(300%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.footer-animation {
+    animation: footer-animation 1.5s ease-in-out 0s 1 forwards;
+}
+
+
+@keyframes blog-Cardanimation {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.blogs-Cardanimation {
+    animation: blog-Cardanimation 1s ease-in 0s 1 forwards;
+}
+
+@keyframes blog-textanimation {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.blogs-textanimation {
+    animation: blog-textanimation 1s ease-in 0s 1 forwards;
+}
+
+@keyframes card-transition {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+
+    }
+
+}
+
+.card-transition {
+    animation: card-transition 2s ease-in 0s 1 forwards;
+    ;
+}
+
+@keyframes things-card-hover {
+    0% {
+        transform: scale(1) translateX(0);
+        border-top: 3px solid orange;
+    }
+
+    25% {
+        transform: scale(1.05) translateX(-5px);
+        border-left: 3px solid orange;
+    }
+
+    50% {
+        transform: scale(1.05) translateX(5px);
+        border-bottom: 3px solid orange;
+    }
+
+    75% {
+        transform: scale(1.05) translateX(0);
+        border-right: 3px solid orange;
+    }
+
+    100% {
+        transform: scale(1) translateX(0);
+        border-top: 3px solid orange;
+    }
+}
+
+.things-card-hover:hover {
+    animation: things-card-hover 3s ease-in-out infinite;
+}
+
+
+@keyframes header-anima {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.header-animation {
+    animation: header-anima 3s ease-in-out 0s 1 forwards;
+}
+
+@keyframes hero-anima {
+    0% {
+        margin-left: 100%;
+        opacity: 0;
+    }
+
+    100% {
+        margin-left: 0;
+        opacity: 100%;
+    }
+}
+
+.hero-men-animation {
+    animation: hero-anima 2s ease-in-out 0s 1 forwards;
+}
+
+@keyframes hero-content-anima {
+    0% {
+        margin-left: -100%;
+        opacity: 0;
+    }
+
+    100% {
+        margin-left: 0;
+        opacity: 100%;
+    }
+}
+
+.hero-content-animation {
+    animation: hero-content-anima 2s ease-in-out 0s 1 forwards;
+}

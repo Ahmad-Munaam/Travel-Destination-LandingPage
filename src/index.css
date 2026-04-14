@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #FEFCFB;
+}
+
+@font-face {
+    font-family: primary-poppins;
+    src: url('./assets/fonts/Poppins-Light.otf') format('opentype');
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+@font-face {
+    font-family: volkhov;
+    src: url('./assets/fonts/Volkhov-Regular.ttf') format('truetype');
+}
+
+.btn-color {
+    background-color: #FA7436;
+}
+
+.icons-color,
+.primary-color {
+    color: #FA7436;
+}
+
+::-webkit-scrollbar {
+    scrollbar-width: none;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('./assets/fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+}
