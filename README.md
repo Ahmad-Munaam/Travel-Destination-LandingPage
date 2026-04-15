@@ -1,16 +1,40 @@
-# React + Vite
+# Travel Destination Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demo](https://travel-destination-landing-page.vercel.app/) | [GitHub Repo](https://github.com/Ahmad-Munaam/Travel-Destination-LandingPage)
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A travel destination landing page I built to really understand animations and how to make a UI look attractive and professional. This was a big moment for me — I learned how small details like hover effects, card layouts, and smooth transitions can completely change how a site feels.
 
-## React Compiler
+No backend, no complex logic — just pure frontend work focused on design and user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the ESLint configuration
+- React.js
+- Tailwind CSS
+- JavaScript
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Destination cards showing places, ratings, and prices
+- Discount pricing (original vs discounted price)
+- Customer reviews section
+- Blog posts section
+- Fully responsive — works on mobile, tablet, and desktop
+- Hover effects and smooth animations throughout
+
+## What I Learned
+
+- How to build a complete UI from scratch without any component libraries
+- Making animations feel smooth and natural, not jumpy or annoying
+- Responsive design — making sure everything looks good on every screen size
+- Paying attention to small details (spacing, colors, hover states) makes a huge difference
+
+## Run Locally
+
+```bash
+git clone https://github.com/Ahmad-Munaam/Travel-Destination-LandingPage
+cd Travel-Destination-LandingPage
+npm install
+npm run dev
